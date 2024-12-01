@@ -1,0 +1,33 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Database
+*.sqlite3
+
+# Secrets
+.env
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Logs and temporary files
+*.log
+logs/
+*.swp
+*.swo
+*.~*~
+
+# IDE/Editor files
+.vscode/
+
+# Dependency directories
+node_modules/
+
