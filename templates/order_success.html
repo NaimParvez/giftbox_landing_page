@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<div class="container mt-5 text-center ">
-  <h1>Thank You!</h1>
-  <p>Your order has been placed successfully.</p>
+
+{% include 'header.html' %}
+
+<div class="container mt-5 text-center">
+  <div class="thank-you-message">
+    <h1 class="display-3 text-success fw-bold">Thank You!</h1>
+    <p class="fs-4 text-muted">Your order has been placed successfully.</p>
+  </div>
 </div>
+
 
 {% endblock %}

@@ -297,3 +297,34 @@ body {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
 }
+
+
+/* Styling for the "Thank You" section */
+.thank-you-message {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.thank-you-message h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #28a745; /* Green color for "Thank You" */
+}
+
+.thank-you-message p {
+  font-size: 1.25rem;
+  color: #6c757d; /* Muted color for the description */
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+/* Add a hover effect to the message */
+.thank-you-message:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+

@@ -1,5 +1,12 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <!-- Header Section -->
+
+
+{% include 'header.html' %}
+
+
+
+
 <section
   class="header-section pt-5 "
   style="
@@ -22,7 +29,7 @@
       <a
         href="https://bdgiftbox.com/"
         class="btn btn-info rounded-pill ms-2 px-4"
-        >VISIT MORE</a
+        >VISIT SITE</a
       >
     </div>
   </div>
@@ -170,7 +177,7 @@
                     <h6 class="card-title">{{ product.product_title }}</h6>
                     <div class="buy d-flex justify-content-between align-items-center">
                         <div class="price">
-                            <h5>Price: ৳{{ product.product_price }} BDT</h5>
+                            <h5>Price: {{ product.product_price }} BDT</h5>
                         </div>
                         <a href="{% url 'buy_product' product.product_slug %}" class="btn btn-danger">Buy Now</a>
                     </div>
@@ -190,8 +197,5 @@
   </div>
 </main>
 <!-- End Main Section -->
-
-<!-- Footer Section -->
-
 
 {% endblock %}
